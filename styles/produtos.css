@@ -1,0 +1,75 @@
+.container {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+h1 {
+    color: var(--color-3);
+}
+
+.galeria {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardProduto {
+    width: 100%;
+    max-width: 340px;
+}
+
+.cardProduto img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardProduto h4 {
+    color: var(--color-3);
+    margin: 10px 0 5px 0;
+    font-size: 1.1em;
+}
+
+.cardProduto p {
+    font-size: 0.9em;
+}
+
+.mais {
+    background-color: var(--color-3);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.mais h2 {
+    color: var(--color-2);
+}
+
+.mais p,
+.mais label {
+    color: var(--color-4);
+}
+
+.mais form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mais form input {
+    accent-color: var(--color-2);
+}
+
+textarea {
+    resize: none;
+}
