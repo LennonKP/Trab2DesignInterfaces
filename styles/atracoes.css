@@ -1,0 +1,35 @@
+.container{
+    margin: 10px auto;
+    width: 90%;
+    max-width: 700px;
+}
+h1{
+    color: var(--color-3);
+}
+.galeria{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardAtracao{
+    width: 100%;
+    max-width: 340px;
+}
+.cardAtracao img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.cardAtracao h4{
+    color: var(--color-3);
+    margin: 10px 0 5px 0;
+    font-size: 1.1em;
+}
+.cardAtracao p{
+    font-size: 0.9em;
+}

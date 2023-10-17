@@ -1,0 +1,14 @@
+:root {
+    --color-1: #7887CD;
+    --color-2: #EBCF61;
+    --color-3: #1E3680;
+    --color-4: #E6DED2;
+    --color-5: #DE773B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
