@@ -60,6 +60,14 @@ h1 {
     color: var(--color-4);
 }
 
+.mais form{
+    width: 80%;
+}
+
+.mais form fieldset{
+    padding: 10px 10px;
+}
+
 .mais form,
 .mais form fieldset {
     display: flex;
